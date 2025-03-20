@@ -172,9 +172,10 @@ def extract_unique_bill_info(input_dir, output_file, old_csv = None, old_csv_wit
     return len(unique_df)
  
 
-
+"""
 input_directory = 'data_collection/congressman_data'
 output_csv = 'data_collection/billinfo.csv'
 old = "restart.csv"
 old_api = "data_collection/billinfo.csv"
 print(f"Found {extract_unique_bill_info(input_directory, output_csv, old, old_api)} unique bills")
+"""
